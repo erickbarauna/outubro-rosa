@@ -88,7 +88,7 @@ main > .container > img {
     -o-border-radius: 100px;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -96,17 +96,17 @@ main > .container > img {
     padding: 0px 20px;
 }
 
-.footer .logo {
+footer .logo {
     width: 120px;
     margin: 30px;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
-.footer .sociais {
+footer .sociais {
     display: flex;
 }
 
@@ -117,12 +117,12 @@ main > .container > img {
     line-height: 40px;
     background-color: white;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 10px;
     cursor: pointer;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .sociais .social a {
@@ -142,12 +142,12 @@ main > .container > img {
 
 @media (max-width: 600px) {
 
-    .footer {
+    footer {
         display: block;
         text-align: center;
     }
 
-    .footer .sociais {
+    footer .sociais {
         justify-content: center;
         align-items: center;
         padding-bottom: 30px;
