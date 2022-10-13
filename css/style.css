@@ -88,28 +88,69 @@ main > .container > img {
     -o-border-radius: 100px;
 }
 
-footer {
-    bottom: 0;  
-    background-color: #f4a8c2;
-    padding: 50px;
+.footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    background-color: #f4a8c2;
+    padding: 0px 20px;
 }
 
-a {
+.footer .logo {
+    width: 120px;
+    margin: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.footer .sociais {
+    display: flex;
+}
+
+.sociais .social {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.sociais .social a {
+    color: #f4a8c2;
+    font-size: 1.1em;
+}
+
+.sociais .social:hover {
+    background-color: #eb6580f3;
+    transition: background-color .25s linear;
+}
+
+.sociais .social:hover a {
     color: white;
-    font-family: 'Poppins', sans-serif;
-    display: inline;
-    justify-content: center;
-    align-items: center;
+    transition: color .25s linear;
+}
+
+@media (max-width: 600px) {
+
+    .footer {
+        display: block;
+        text-align: center;
+    }
+
+    .footer .sociais {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
     
-}
-
-.contato {
-    margin-right: 350px;
-}
-
-.redes {
-    margin-right: 70px;
 }
