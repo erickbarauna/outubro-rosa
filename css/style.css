@@ -112,7 +112,7 @@ main > .container-conteudo > p {
 
 .slide {
     width: 25%;
-    transition: 2s;
+    transition: 1.5s;
 }
 
 .slide img {
