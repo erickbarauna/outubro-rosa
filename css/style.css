@@ -2,9 +2,8 @@
 
 *  {
     margin: 0;
-    padding: 0;
-    font-family: serif;
     text-decoration: none;
+    align-items: center;
 }
 
 header {
@@ -13,36 +12,28 @@ header {
     align-items: center;
 }
 
-header .menu-section .menu-links {
+.menu-links {
     display: flex;
 }
 
 .link {
-    font-style: italic;
-    font-size: 1.3em;
     margin-right: 30px;
     border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
+    font-size: 1.3em;
+    font-style: italic;
 }
 
 .link a {
-    display: flex;
+    padding: 30px 20px;
     font-weight: lighter;
     color: black;
-    padding: 30px 20px;
+    display: flex;
 }
 
 .link:hover {
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.209);
     background-color: #f4a8c2;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.209);
     transition: box-shadow .4s, background-color 1s;
-    -webkit-transition: box-shadow .4s, background-color 1s;
-    -moz-transition: box-shadow .4s, background-color 1s;
-    -ms-transition: box-shadow .4s, background-color 1s;
-    -o-transition: box-shadow .4s, background-color 1s;
 }
 
 .link a:hover {
@@ -50,54 +41,52 @@ header .menu-section .menu-links {
     transition: color .4s;
 }
 
-.logo {
-    width: 200px;
-    margin-right: 80px; 
-    margin-left: 100px;
+.logo-top {
+    width: 250px;
+    margin: 0px 80px; 
 }
 
 main {
-    display: flex;
+    margin: 60px 30px;
+    display: block;
     justify-content: center;
-    align-items: center;
-    margin: 60px 30px 60px 30px;
 }
 
-main > .container-conteudo {
-    border-radius: 100px 100px 100px 100px;
-    background-color: #f8eef4;
-    padding: 50px;
-    margin: 0px 30px 0px 30px;
-    text-align: justify;
+.conteudo {
     max-width: 1200px;
+    padding: 50px;
+    margin: 0px auto 60px auto;
+    background-color: #f8eef4;
+    text-align: justify;
+    border-radius: 100px;
 }
 
-main > .container-conteudo > .h1 {
+.titulo {
     margin-bottom: 30px;
 }
 
-main > .container-conteudo > .h1 .marcado {
-    display: inline;
+.titulo .marcado {
     font-style: italic;
-    border-left: 3px solid #0642ae; /* Ou #ff5488*/
+    border-left: 3px solid #0642ae;
+    display: inline;
 }
 
-main > .container-conteudo > .h1 > h1 {
-    display: inline;
+.titulo h1 {
     font-style: italic;
+    display: inline;
 }
 
-main > .container-conteudo > p {
+.conteudo p {
     font-family: 'Poppins', sans-serif;
 }
 
 .slider {
-    margin: 0 auto 60px auto;
     width: 700px;
     height: 700px;
-    overflow: hidden;
+    margin: 0 auto 60px auto;
+    background-color: #f8eef4;
     border-radius: 50px;
-    background-color: #f48da5;
+    overflow: hidden;
 }
 
 .slides {
@@ -121,16 +110,16 @@ main > .container-conteudo > p {
 }
 
 .manual-navigation {
-    position: absolute;
     width: 700px;
-    margin-top: -30px;
+    margin-top: -22px;
+    position: absolute;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn {
-    border: 2px solid black;
     padding: 5px;
+    border: 2px solid black;
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
@@ -169,17 +158,17 @@ main > .container-conteudo > p {
 }
 
 .navigation-auto div {
-    border: 2px solid rgb(255, 139, 255);
     padding: 5px;
+    border: 2px solid rgb(255, 139, 255);
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
 }
 
 .navigation-auto {
-    position: absolute;
     width: 700px;
     margin-top: 670px;
+    position: absolute;
     display: flex;
     justify-content: center;
 }
@@ -213,21 +202,17 @@ main > .container-conteudo > p {
 }
 
 footer {
+    padding: 0px 20px;
+    background-color: #f4a8c2;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f4a8c2;
-    padding: 0px 20px;
 }
 
-footer .logo {
+.logo-bottom {
     width: 120px;
     margin: 30px;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
 footer .sociais {
@@ -237,29 +222,25 @@ footer .sociais {
 .sociais .social {
     width: 40px;
     height: 40px;
+    margin: 10px;
     text-align: center;
     line-height: 40px;
     background-color: white;
-    margin: 10px;
     border-radius: 10px;
     cursor: pointer;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 
-.sociais .social a {
-    color: #f4a8c2;
+.social a {
     font-size: 1.1em;
+    color: #f4a8c2;
 }
 
-.sociais .social:hover {
+.social:hover {
     background-color: #eb6580f3;
     transition: background-color .25s linear;
 }
 
-.sociais .social:hover a {
+.social:hover a {
     color: white;
     transition: color .25s linear;
 }
@@ -270,71 +251,58 @@ footer .sociais {
         justify-content: space-between;
     }
 
-    header .menu-section .menu-links {
+    .menu-links {
         display: none;
     }
 
-    .logo {
-        margin-left: 100px;
-    }
-
-    .menu-links .link {
-        margin: 0;
-        padding: 0;
+    .logo-top {
+        width: 200px;
+        margin: 0px 50px; 
     }
 
     .one, .two, .three {
-        background-color: #000000;
         height: 5.1px;
         margin: 6px auto;
+        background-color: #000000;
         border-radius: 5px;
         transition-duration: 0.3s;
     }
 
     .menu-toggle {
-        margin-right: 100px;
-        margin-top: 20px;
         width: 40px;
         height: 30px;
+        margin: 20px 70px 0px 0px;
     }
 
     .menu-section.on {
-        position: absolute;
         width: 100%;
         height: 185%;
         background-color: #f8eef4;
+        position: absolute;
         display: flex;
         align-items: center;
     }
 
     .menu-section.on .menu-links {
-        display: block;
-        position: absolute;
         top: 72%;
         left: 50%;
+        position: absolute;
         transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
+        display: block;
     }
 
-    .menu-section.on .menu-links .link {
+    .menu-section.on .link {
         margin-bottom: 10px;
     }
 
     .menu-section.on .menu-toggle {
-        position: absolute;
         right: 15px;
         margin-bottom: 10px;
+        position: absolute;
     }
 
     .menu-section.on .menu-toggle .one {
         transform: rotate(45deg) translate(7px, 7px);
-        -webkit-transform: rotate(45deg) translate(7px, 7px);
-        -moz-transform: rotate(45deg) translate(7px, 7px);
-        -ms-transform: rotate(45deg) translate(7px, 7px);
-        -o-transform: rotate(45deg) translate(7px, 7px);
     }
 
     .menu-section.on .menu-toggle .two {
@@ -343,33 +311,27 @@ footer .sociais {
 
     .menu-section.on .menu-toggle .three {
         transform: rotate(-45deg) translate(8px, -9px);
-        -webkit-transform: rotate(-45deg) translate(8px, -9px);
-        -moz-transform: rotate(-45deg) translate(8px, -9px);
-        -ms-transform: rotate(-45deg) translate(8px, -9px);
-        -o-transform: rotate(-45deg) translate(8px, -9px);
     }
-
 }
 
 @media (max-width: 750px) {
-    .logo {
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .menu-toggle {
-        margin-right: 5px;
-    }
-
     main {
         margin: 0;
     }
 
-    main > .container-conteudo {
-        border-radius: 50px;
+    .logo-top {
+        margin-left: 0;
+    }
+
+    .menu-toggle {
+        margin-right: 10px;
+    }
+
+    .conteudo {
         padding: 20px;
         margin: 60px 10px;
         font-size: 15px;
+        border-radius: 50px;
     }
 
     .slider {
@@ -398,27 +360,24 @@ footer .sociais {
 }
 
 @media (max-height: 730px) {
-    .menu-section.on .menu-links .link {
+    .link {
         margin: 0px;
     }
 
-    .menu-section.on .menu-links .link a {
+    .link a {
         padding: 20px 10px;
     }
 }
 
 @media (max-width: 550px) {
-    
-
     footer {
-        display: block;
         text-align: center;
+        display: block;
     }
 
-    footer .sociais {
-        justify-content: center;
-        align-items: center;
+    .sociais {
         padding-bottom: 30px;
-    }
-    
+        align-items: center;
+        justify-content: center;
+    } 
 }
