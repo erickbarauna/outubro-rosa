@@ -325,7 +325,7 @@ footer .sociais {
     }
 
     .menu-section.on .menu-links {
-        top: 72%;
+        top: 70%;
         left: 50%;
         position: absolute;
         transform: translate(-50%, -50%);
@@ -412,8 +412,8 @@ footer .sociais {
     }
 
     .link a {
-        padding: 20px 10px;
-        margin: 10px 0px;
+        padding: 17px 15px;
+        margin: 0px;
     }
 }
 
