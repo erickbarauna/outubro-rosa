@@ -1,4 +1,4 @@
-# ![smartphone](https://user-images.githubusercontent.com/98670029/193427121-2bc0d0a1-91df-4c1f-8dd8-18a3bfb95915.png) Outubro Rosa
+#🎗️ Outubro Rosa
 Projeto sobre a campanha de conscientização Outubro Rosa, que tem como objetivo principal alertar as mulheres e a sociedade sobre a importância da prevenção e do diagnóstico precoce do câncer de mama.
  
  ## Descrição
