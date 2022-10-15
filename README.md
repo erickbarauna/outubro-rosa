@@ -1,4 +1,4 @@
-#🎗️ Outubro Rosa
+# Outubro Rosa
 Projeto sobre a campanha de conscientização Outubro Rosa, que tem como objetivo principal alertar as mulheres e a sociedade sobre a importância da prevenção e do diagnóstico precoce do câncer de mama.
  
  ## Descrição
