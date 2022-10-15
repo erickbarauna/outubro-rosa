@@ -417,6 +417,12 @@ footer .sociais {
     }
 }
 
+@media (max-width: 640px) {
+    .imagens {
+        margin: 0px 30px;
+    }
+}
+
 @media (max-width: 550px) {
     footer {
         text-align: center;
