@@ -54,7 +54,7 @@ main {
 
 .conteudo {
     max-width: 1200px;
-    padding: 50px;
+    padding: 60px;
     margin: 0px auto 60px auto;
     background-color: #f8eef4;
     text-align: justify;
@@ -326,6 +326,12 @@ footer .sociais {
     .menu-section.on .menu-toggle .three {
         transform: rotate(-45deg) translate(8px, -9px);
     }
+
+    .conteudo {
+        padding: 45px;
+        margin-bottom: 60PX;
+        border-radius: 80px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -342,7 +348,7 @@ footer .sociais {
     }
 
     .conteudo {
-        padding: 20px;
+        padding: 45px 15px;
         margin: 60px 10px;
         font-size: 15px;
         border-radius: 50px;
