@@ -8,7 +8,8 @@ O projeto conta com um header, que possui logo e um menu hamburguer, main, onde 
 https://erickbarauna.github.io/outubro-rosa/
   <div align="center">
   
-  ![cap1](https://user-images.githubusercontent.com/98670029/196007816-9253a5a6-8a44-4afe-bc63-11909dd666ba.png)
-
+ 
+   ![print1](https://user-images.githubusercontent.com/98670029/196007845-dfa5ea42-1054-48d1-b238-fe85ebb30d83.PNG)
   
   </div>
+
