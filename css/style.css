@@ -76,8 +76,22 @@ main {
     display: inline;
 }
 
+.conteudo h2 {
+    margin: 30px 0;
+    font-style: italic;
+}
+
 .conteudo p {
     font-family: 'Poppins', sans-serif;
+}
+
+.conteudo ul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.conteudo ul li:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .slider {
