@@ -12,7 +12,6 @@ https://erickbarauna.github.io/outubro-rosa/
    ![print1](https://user-images.githubusercontent.com/98670029/196007845-dfa5ea42-1054-48d1-b238-fe85ebb30d83.PNG)
    ![print2](https://user-images.githubusercontent.com/98670029/196007872-2a75e7fc-f975-4d08-a230-26174816bd05.PNG)
    ![print3](https://user-images.githubusercontent.com/98670029/196007875-23221992-6310-47d0-8d75-da21dd9aab49.PNG)
-   ![print4](https://user-images.githubusercontent.com/98670029/196007877-7da553d6-addc-47da-9567-d620c0e32f76.PNG)
   
   </div>
 
